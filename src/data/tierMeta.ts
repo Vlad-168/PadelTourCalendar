@@ -1,6 +1,7 @@
 import type { Tier, TierMeta } from '../types'
 
 export const TIER_META: Record<Tier, TierMeta> = {
+  finals: { label: 'Premier Padel Finals', shortLabel: 'Finals', group: 'premier', color: 'tier-finals' },
   major: { label: 'Premier Padel Major', shortLabel: 'Major', group: 'premier', color: 'tier-major' },
   p1: { label: 'Premier Padel P1', shortLabel: 'P1', group: 'premier', color: 'tier-p1' },
   p2: { label: 'Premier Padel P2', shortLabel: 'P2', group: 'premier', color: 'tier-p2' },
@@ -12,4 +13,4 @@ export const TIER_META: Record<Tier, TierMeta> = {
   university: { label: 'Студенческий чемпионат', shortLabel: 'University', group: 'other', color: 'tier-other' },
 }
 
-export const TIER_ORDER: Tier[] = ['major', 'p1', 'p2', 'platinum', 'gold', 'silver', 'bronze', 'team', 'university']
+export const TIER_ORDER: Tier[] = ['finals', 'major', 'p1', 'p2', 'platinum', 'gold', 'silver', 'bronze', 'team', 'university']

@@ -18,6 +18,7 @@ export default {
         secondary: '#8E9BB5',
         tertiary:  '#4B5268',
         tier: {
+          finals:   '#C6F135',
           major:    '#FF4D6D',
           p1:       '#FF8A3D',
           p2:       '#FFC93D',

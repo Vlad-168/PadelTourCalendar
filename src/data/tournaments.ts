@@ -1,10 +1,12 @@
 import type { Tier, Tournament } from '../types'
 import { COUNTRY_CODES } from './countryCodes'
 
-// Curated from the official FIP calendar (padelfip.com) and the 2026 FIP
-// calendar summary. Covers 8 Jan – 19 Jul 2026; later months will be added
-// as the official calendar is published. Update by appending rows below —
-// [tier, name, city, country, startDate ISO, endDate ISO].
+// Curated from the official FIP calendar (padelfip.com) and the 2026
+// Premier Padel season calendar. Full FIP tier coverage (Platinum/Gold/
+// Silver/Bronze) runs 8 Jan – 19 Jul 2026; Aug–Dec 2026 currently lists
+// only the confirmed Premier Padel Major/P1/P2/Finals stops, since FIP
+// hasn't published the lower tiers that far out yet. Update by appending
+// rows below — [tier, name, city, country, startDate ISO, endDate ISO].
 type Row = [Tier, string, string, string, string, string]
 
 const ROWS: Row[] = [
@@ -142,6 +144,21 @@ const ROWS: Row[] = [
   ['bronze', 'A Coruña', 'A Coruña', 'Spain', '2026-07-17', '2026-07-19'],
   ['bronze', 'Dronten', 'Dronten', 'Netherlands', '2026-07-17', '2026-07-19'],
   ['bronze', 'Banten', 'Pagedangan', 'Indonesia', '2026-07-17', '2026-07-19'],
+
+  // August–December: only Premier Padel (Major/P1/P2/Finals) is confirmed
+  // this far out — FIP hasn't published Platinum/Gold/Silver/Bronze events
+  // past July yet. Fill those in as the official calendar adds them.
+  ['p2', 'Pretoria', 'Pretoria', 'South Africa', '2026-07-27', '2026-08-02'],
+  ['p1', 'London', 'London', 'United Kingdom', '2026-08-03', '2026-08-09'],
+  ['p1', 'Madrid', 'Madrid', 'Spain', '2026-08-31', '2026-09-06'],
+  ['major', 'Paris Major', 'Paris', 'France', '2026-09-07', '2026-09-13'],
+  ['p2', 'Rotterdam', 'Rotterdam', 'Netherlands', '2026-09-28', '2026-10-04'],
+  ['p2', 'Germany', 'Düsseldorf', 'Germany', '2026-10-05', '2026-10-11'],
+  ['p1', 'Milano', 'Milan', 'Italy', '2026-10-12', '2026-10-18'],
+  ['p1', 'Kuwait', 'Kuwait City', 'Kuwait', '2026-10-26', '2026-10-31'],
+  ['p1', 'Dubai', 'Dubai', 'UAE', '2026-11-09', '2026-11-15'],
+  ['major', 'Mexico Major', 'Acapulco', 'Mexico', '2026-11-23', '2026-11-29'],
+  ['finals', 'Barcelona Finals', 'Barcelona', 'Spain', '2026-12-07', '2026-12-13'],
 ]
 
 export const TOURNAMENTS: Tournament[] = ROWS.map(([tier, name, city, country, startDate, endDate], i) => ({

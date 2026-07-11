@@ -1,4 +1,5 @@
 export type Tier =
+  | 'finals'
   | 'major'
   | 'p1'
   | 'p2'

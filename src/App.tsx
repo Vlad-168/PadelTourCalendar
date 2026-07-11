@@ -139,7 +139,9 @@ export default function App() {
               onSelectDay={setSelectedDay}
             />
             <p className="text-tertiary text-[11px] text-center mt-4 pb-8">
-              Календарь охватывает период {formatDateRange(DATA_RANGE.start, DATA_RANGE.end)} · данные из официального календаря FIP
+              Данные из официального календаря FIP: {formatDateRange(DATA_RANGE.start, DATA_RANGE.end)}.
+              До 19 июля — все категории, дальше пока только Premier Padel (Major/P1/P2/Finals) —
+              остальные турниры FIP публикует ближе к дате.
             </p>
           </>
         ) : (

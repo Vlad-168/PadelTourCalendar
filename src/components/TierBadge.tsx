@@ -2,6 +2,7 @@ import type { Tier } from '../types'
 import { TIER_META } from '../data/tierMeta'
 
 const CLASSES: Record<Tier, string> = {
+  finals: 'bg-tier-finals/15 text-tier-finals border-tier-finals/30',
   major: 'bg-tier-major/15 text-tier-major border-tier-major/30',
   p1: 'bg-tier-p1/15 text-tier-p1 border-tier-p1/30',
   p2: 'bg-tier-p2/15 text-tier-p2 border-tier-p2/30',
@@ -14,6 +15,7 @@ const CLASSES: Record<Tier, string> = {
 }
 
 export const TIER_DOT_CLASSES: Record<Tier, string> = {
+  finals: 'bg-tier-finals',
   major: 'bg-tier-major',
   p1: 'bg-tier-p1',
   p2: 'bg-tier-p2',

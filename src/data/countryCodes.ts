@@ -52,6 +52,11 @@ export const COUNTRY_CODES: Record<string, string> = {
   Georgia: 'GE',
   Hungary: 'HU',
   Ireland: 'IE',
+  'South Africa': 'ZA',
+  'United Kingdom': 'GB',
+  Kuwait: 'KW',
+  Paraguay: 'PY',
+  Malaysia: 'MY',
 }
 
 export function flagEmoji(country: string): string {
