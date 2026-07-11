@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { CalendarDays, List as ListIcon, Radio } from 'lucide-react'
+import { CalendarDays, List as ListIcon, Radio, Rss } from 'lucide-react'
 import Logo from './components/Logo'
 import FilterBar, { type StatusFilter } from './components/FilterBar'
 import ListView from './components/ListView'
@@ -7,6 +7,7 @@ import CalendarView from './components/CalendarView'
 import BottomSheet from './components/BottomSheet'
 import TournamentDetail from './components/TournamentDetail'
 import TournamentCard from './components/TournamentCard'
+import SubscribeSheet from './components/SubscribeSheet'
 import { TOURNAMENTS, DATA_RANGE } from './data/tournaments'
 import type { Tier, Tournament, ViewMode } from './types'
 import { formatDateRange, getStatus, tournamentsOnDay } from './utils/date'
@@ -25,6 +26,7 @@ export default function App() {
 
   const [selectedTournament, setSelectedTournament] = useState<Tournament | null>(null)
   const [selectedDay, setSelectedDay] = useState<Date | null>(null)
+  const [subscribeOpen, setSubscribeOpen] = useState(false)
 
   const countries = useMemo(() => [...new Set(TOURNAMENTS.map((t) => t.country))].sort(), [])
 
@@ -84,19 +86,28 @@ export default function App() {
               <Logo size={26} />
               <h1 className="font-bold text-primary text-base">Padel Tour Calendar</h1>
             </div>
-            <div className="flex bg-card rounded-2xl p-0.5">
+            <div className="flex items-center gap-2">
               <button
-                onClick={() => setViewMode('calendar')}
-                className={`p-1.5 rounded-[14px] ${viewMode === 'calendar' ? 'bg-accent text-base' : 'text-secondary'}`}
+                onClick={() => setSubscribeOpen(true)}
+                className="w-8 h-8 rounded-full bg-card flex items-center justify-center text-secondary active:scale-95"
+                aria-label="Подписаться на календарь"
               >
-                <CalendarDays size={16} />
+                <Rss size={15} />
               </button>
-              <button
-                onClick={() => setViewMode('list')}
-                className={`p-1.5 rounded-[14px] ${viewMode === 'list' ? 'bg-accent text-base' : 'text-secondary'}`}
-              >
-                <ListIcon size={16} />
-              </button>
+              <div className="flex bg-card rounded-2xl p-0.5">
+                <button
+                  onClick={() => setViewMode('calendar')}
+                  className={`p-1.5 rounded-[14px] ${viewMode === 'calendar' ? 'bg-accent text-base' : 'text-secondary'}`}
+                >
+                  <CalendarDays size={16} />
+                </button>
+                <button
+                  onClick={() => setViewMode('list')}
+                  className={`p-1.5 rounded-[14px] ${viewMode === 'list' ? 'bg-accent text-base' : 'text-secondary'}`}
+                >
+                  <ListIcon size={16} />
+                </button>
+              </div>
             </div>
           </div>
 
@@ -170,6 +181,10 @@ export default function App() {
 
       <BottomSheet open={!!selectedTournament} onClose={() => setSelectedTournament(null)} title="Турнир">
         {selectedTournament && <TournamentDetail t={selectedTournament} />}
+      </BottomSheet>
+
+      <BottomSheet open={subscribeOpen} onClose={() => setSubscribeOpen(false)} title="Подписка на календарь">
+        <SubscribeSheet />
       </BottomSheet>
     </div>
   )

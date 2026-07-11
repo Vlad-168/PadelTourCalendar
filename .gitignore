@@ -5,6 +5,9 @@ node_modules/
 dist/
 dev-dist/
 
+# Generated at dev/build time by scripts/generate-ics.ts
+public/calendar.ics
+
 # Logs
 *.log
 npm-debug.log*
