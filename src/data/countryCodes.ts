@@ -58,6 +58,17 @@ export const COUNTRY_CODES: Record<string, string> = {
   Paraguay: 'PY',
   Malaysia: 'MY',
   Norway: 'NO',
+  Armenia: 'AM',
+  Benin: 'BJ',
+  Croatia: 'HR',
+  Ghana: 'GH',
+  'Great Britain': 'GB',
+  Pakistan: 'PK',
+  Serbia: 'RS',
+  'Sint Maarten': 'SX',
+  Tunisia: 'TN',
+  'United Arab Emirates': 'AE',
+  Uzbekistan: 'UZ',
 }
 
 export function flagEmoji(country: string): string {
