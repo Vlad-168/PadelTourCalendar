@@ -1,12 +1,14 @@
 import type { Tier, Tournament } from '../types'
 import { COUNTRY_CODES } from './countryCodes'
 
-// Curated from the official FIP calendar (padelfip.com) and the 2026
-// Premier Padel season calendar. Full FIP tier coverage (Platinum/Gold/
-// Silver/Bronze) runs 8 Jan – 19 Jul 2026; Aug–Dec 2026 currently lists
-// only the confirmed Premier Padel Major/P1/P2/Finals stops, since FIP
-// hasn't published the lower tiers that far out yet. Update by appending
-// rows below — [tier, name, city, country, startDate ISO, endDate ISO].
+// Curated from the official FIP calendar (padelfip.com), the dedicated
+// Cupra FIP Tour calendar (padelfip.com/calendar-cupra-fip-tour), and the
+// 2026 Premier Padel season calendar. Full FIP tier coverage (Platinum/
+// Gold/Silver/Bronze) runs 8 Jan – 26 Jul 2026; Aug–Dec 2026 currently
+// lists only the confirmed Premier Padel Major/P1/P2/Finals stops, since
+// FIP hasn't published the lower tiers that far out yet. Update by
+// appending rows below — [tier, name, city, country, startDate ISO,
+// endDate ISO].
 type Row = [Tier, string, string, string, string, string]
 
 const ROWS: Row[] = [
@@ -65,6 +67,22 @@ const ROWS: Row[] = [
   ['bronze', 'Aguascalientes', 'Aguascalientes', 'Mexico', '2026-04-09', '2026-04-11'],
   ['silver', 'Mumbai', 'Mumbai', 'India', '2026-04-09', '2026-04-12'],
   ['bronze', 'Baku', 'Baku', 'Azerbaijan', '2026-04-10', '2026-04-12'],
+  ['bronze', 'Elche', 'Elche', 'Spain', '2026-04-08', '2026-04-12'],
+  ['bronze', 'Rivesaltes', 'Rivesaltes', 'France', '2026-04-08', '2026-04-12'],
+  ['bronze', 'S4sport Open', 'Eidsvoll', 'Norway', '2026-04-09', '2026-04-12'],
+  ['bronze', 'Kuala Lumpur', 'Kuala Lumpur', 'Malaysia', '2026-04-14', '2026-04-19'],
+  ['bronze', 'Icónico Sports', 'Sevilla', 'Spain', '2026-04-15', '2026-04-19'],
+  ['silver', 'Nola', 'Nola', 'Italy', '2026-04-15', '2026-04-19'],
+  ['bronze', 'Cyprus I', 'Ayia Napa', 'Cyprus', '2026-04-16', '2026-04-19'],
+  ['bronze', 'Marrakech', 'Marrakech', 'Morocco', '2026-04-16', '2026-04-19'],
+  ['bronze', 'Ijuí', 'Ijuí', 'Brazil', '2026-04-17', '2026-04-19'],
+  ['silver', 'Kuala Lumpur', 'Kuala Lumpur', 'Malaysia', '2026-04-21', '2026-04-26'],
+  ['silver', 'Mediolanum Padel Cup Bari', 'Bari', 'Italy', '2026-04-22', '2026-04-26'],
+  ['bronze', 'Cyprus II', 'Ayia Napa', 'Cyprus', '2026-04-23', '2026-04-26'],
+  ['bronze', 'Chile II', 'Santiago', 'Chile', '2026-04-23', '2026-04-26'],
+  ['bronze', 'Aquahobby Isla de la Palma', 'Isla de la Palma', 'Spain', '2026-04-23', '2026-04-25'],
+  ['bronze', 'Paraguay I', 'Asunción', 'Paraguay', '2026-04-25', '2026-04-26'],
+  ['silver', 'Leiria Master Padel', 'Leiria', 'Portugal', '2026-04-29', '2026-05-03'],
 
   // May
   ['silver', 'BMW Marmotor 26º Aniversario Club La Calzada', 'Las Palmas', 'Spain', '2026-05-01', '2026-05-03'],
@@ -144,6 +162,12 @@ const ROWS: Row[] = [
   ['bronze', 'A Coruña', 'A Coruña', 'Spain', '2026-07-17', '2026-07-19'],
   ['bronze', 'Dronten', 'Dronten', 'Netherlands', '2026-07-17', '2026-07-19'],
   ['bronze', 'Banten', 'Pagedangan', 'Indonesia', '2026-07-17', '2026-07-19'],
+  ['bronze', 'Copiapó', 'Copiapó', 'Chile', '2026-07-20', '2026-07-26'],
+  ['silver', 'Mimosa Open Porto', 'Porto', 'Portugal', '2026-07-20', '2026-07-26'],
+  ['bronze', 'San Juan de Alicante – El Salt', 'San Juan de Alicante', 'Spain', '2026-07-20', '2026-07-26'],
+  ['bronze', 'Hub 4.0 Rovato', 'Rovato', 'Italy', '2026-07-20', '2026-07-26'],
+  ['bronze', 'Allesvoorpadel', 'Lelystad', 'Netherlands', '2026-07-20', '2026-07-26'],
+  ['silver', 'Camboriú', 'Camboriú', 'Brazil', '2026-07-20', '2026-07-26'],
 
   // August–December: only Premier Padel (Major/P1/P2/Finals) is confirmed
   // this far out — FIP hasn't published Platinum/Gold/Silver/Bronze events

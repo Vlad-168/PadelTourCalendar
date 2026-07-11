@@ -140,8 +140,8 @@ export default function App() {
             />
             <p className="text-tertiary text-[11px] text-center mt-4 pb-8">
               Данные из официального календаря FIP: {formatDateRange(DATA_RANGE.start, DATA_RANGE.end)}.
-              До 19 июля — все категории, дальше пока только Premier Padel (Major/P1/P2/Finals) —
-              остальные турниры FIP публикует ближе к дате.
+              До 26 июля — все категории (Cupra FIP Tour + Premier Padel), дальше пока только
+              Premier Padel (Major/P1/P2/Finals) — остальные турниры FIP публикует ближе к дате.
             </p>
           </>
         ) : (

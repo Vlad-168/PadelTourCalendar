@@ -57,6 +57,7 @@ export const COUNTRY_CODES: Record<string, string> = {
   Kuwait: 'KW',
   Paraguay: 'PY',
   Malaysia: 'MY',
+  Norway: 'NO',
 }
 
 export function flagEmoji(country: string): string {
