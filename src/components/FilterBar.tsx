@@ -59,7 +59,7 @@ export default function FilterBar({
         )}
       </div>
 
-      <div className="flex gap-1.5 overflow-x-auto scrollbar-none -mx-4 px-4">
+      <div className="flex gap-1.5 overflow-x-auto overflow-y-hidden touch-pan-x scrollbar-none -mx-4 px-4 py-1">
         {TIER_ORDER.map((tier) => {
           const active = selectedTiers.has(tier)
           return (
