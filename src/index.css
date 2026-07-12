@@ -51,3 +51,36 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
+/* Content entrance animations */
+@keyframes fadeSlideUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.fade-slide-up { animation: fadeSlideUp 0.35s cubic-bezier(0.16, 1, 0.3, 1) both; }
+
+@keyframes slideFromRight {
+  from { opacity: 0; transform: translateX(18px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+.slide-from-right { animation: slideFromRight 0.3s cubic-bezier(0.16, 1, 0.3, 1) both; }
+
+@keyframes slideFromLeft {
+  from { opacity: 0; transform: translateX(-18px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+.slide-from-left { animation: slideFromLeft 0.3s cubic-bezier(0.16, 1, 0.3, 1) both; }
+
+@keyframes popIn {
+  0%   { opacity: 0; transform: scale(0.85); }
+  100% { opacity: 1; transform: scale(1); }
+}
+.pop-in { animation: popIn 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) both; }
+
+/* Reusable press feedback for tappable elements */
+.press {
+  transition: transform 0.15s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.press:active {
+  transform: scale(0.94);
+}

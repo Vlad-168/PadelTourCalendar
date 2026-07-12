@@ -31,6 +31,8 @@ export default function ListView({ tournaments, onSelect }: { tournaments: Tourn
     )
   }
 
+  let cardIndex = 0
+
   return (
     <div className="space-y-5 pb-8">
       {groups.map((group) => (
@@ -39,9 +41,14 @@ export default function ListView({ tournaments, onSelect }: { tournaments: Tourn
             {group.label}
           </div>
           <div className="space-y-2">
-            {group.items.map((t) => (
-              <TournamentCard key={t.id} t={t} onClick={() => onSelect(t)} />
-            ))}
+            {group.items.map((t) => {
+              const delay = Math.min(cardIndex++, 10) * 30
+              return (
+                <div key={t.id} className="fade-slide-up" style={{ animationDelay: `${delay}ms` }}>
+                  <TournamentCard t={t} onClick={() => onSelect(t)} />
+                </div>
+              )
+            })}
           </div>
         </div>
       ))}

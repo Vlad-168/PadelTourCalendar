@@ -18,7 +18,7 @@ export default function BottomSheet({ open, onClose, title, children }: Props) {
 
   return (
     <div className="fixed inset-0 z-50 flex items-end">
-      <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={onClose} />
+      <div className="absolute inset-0 bg-black/60 backdrop-blur-sm fade-in" onClick={onClose} />
 
       <div className="relative w-full bg-surface rounded-t-3xl max-h-[92vh] flex flex-col slide-up">
         <div className="w-10 h-1 bg-muted rounded-full mx-auto mt-3 mb-1 flex-shrink-0" />
@@ -27,7 +27,7 @@ export default function BottomSheet({ open, onClose, title, children }: Props) {
           <h2 className="text-base font-bold text-primary">{title}</h2>
           <button
             onClick={onClose}
-            className="w-7 h-7 rounded-full bg-card flex items-center justify-center text-secondary"
+            className="press w-7 h-7 rounded-full bg-card flex items-center justify-center text-secondary"
           >
             <X size={15} />
           </button>

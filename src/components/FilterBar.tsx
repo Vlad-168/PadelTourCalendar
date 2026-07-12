@@ -52,7 +52,7 @@ export default function FilterBar({
         {search && (
           <button
             onClick={() => onSearchChange('')}
-            className="absolute right-2.5 top-1/2 -translate-y-1/2 text-secondary"
+            className="press pop-in absolute right-2.5 top-1/2 -translate-y-1/2 text-secondary"
           >
             <X size={15} />
           </button>
@@ -66,13 +66,13 @@ export default function FilterBar({
             <button
               key={tier}
               onClick={() => onToggleTier(tier)}
-              className={`flex-shrink-0 flex items-center gap-1.5 px-2.5 py-1.5 rounded-full text-xs font-medium border transition-colors ${
+              className={`press flex-shrink-0 flex items-center gap-1.5 px-2.5 py-1.5 rounded-full text-xs font-medium border transition-all duration-200 ${
                 active
-                  ? 'bg-accent/15 border-accent/40 text-accent'
+                  ? 'bg-accent/15 border-accent/40 text-accent scale-105'
                   : 'bg-card border-muted text-secondary'
               }`}
             >
-              <span className={`w-1.5 h-1.5 rounded-full ${TIER_DOT_CLASSES[tier]}`} />
+              <span className={`w-1.5 h-1.5 rounded-full ${TIER_DOT_CLASSES[tier]} ${active ? 'animate-pulse' : ''}`} />
               {TIER_META[tier].shortLabel}
             </button>
           )
@@ -85,7 +85,7 @@ export default function FilterBar({
             <button
               key={opt.value}
               onClick={() => onStatusChange(opt.value)}
-              className={`flex-1 py-1.5 text-xs font-medium rounded-[14px] transition-colors ${
+              className={`press flex-1 py-1.5 text-xs font-medium rounded-[14px] transition-colors duration-200 ${
                 status === opt.value ? 'bg-accent text-base' : 'text-secondary'
               }`}
             >

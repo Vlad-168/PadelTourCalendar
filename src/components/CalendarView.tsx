@@ -6,6 +6,7 @@ import { TIER_DOT_CLASSES } from './TierBadge'
 interface Props {
   year: number
   month: number
+  direction: number
   tournaments: Tournament[]
   onPrevMonth: () => void
   onNextMonth: () => void
@@ -13,20 +14,21 @@ interface Props {
   onSelectDay: (day: Date) => void
 }
 
-export default function CalendarView({ year, month, tournaments, onPrevMonth, onNextMonth, onToday, onSelectDay }: Props) {
+export default function CalendarView({ year, month, direction, tournaments, onPrevMonth, onNextMonth, onToday, onSelectDay }: Props) {
   const grid = calendarGrid(year, month)
   const today = new Date()
+  const slideClass = direction > 0 ? 'slide-from-right' : direction < 0 ? 'slide-from-left' : 'fade-slide-up'
 
   return (
     <div>
       <div className="flex items-center justify-between mb-3">
-        <button onClick={onPrevMonth} className="w-8 h-8 rounded-full bg-card flex items-center justify-center text-secondary active:scale-95">
+        <button onClick={onPrevMonth} className="press w-8 h-8 rounded-full bg-card flex items-center justify-center text-secondary">
           <ChevronLeft size={16} />
         </button>
-        <button onClick={onToday} className="text-sm font-semibold text-primary">
+        <button onClick={onToday} className="press text-sm font-semibold text-primary">
           {monthLabel(year, month)}
         </button>
-        <button onClick={onNextMonth} className="w-8 h-8 rounded-full bg-card flex items-center justify-center text-secondary active:scale-95">
+        <button onClick={onNextMonth} className="press w-8 h-8 rounded-full bg-card flex items-center justify-center text-secondary">
           <ChevronRight size={16} />
         </button>
       </div>
@@ -37,7 +39,7 @@ export default function CalendarView({ year, month, tournaments, onPrevMonth, on
         ))}
       </div>
 
-      <div className="grid grid-cols-7 gap-1">
+      <div key={`${year}-${month}`} className={`grid grid-cols-7 gap-1 ${slideClass}`}>
         {grid.map((day, i) => {
           const inMonth = day.getMonth() === month
           const dayTournaments = tournamentsOnDay(tournaments, day)
@@ -48,8 +50,8 @@ export default function CalendarView({ year, month, tournaments, onPrevMonth, on
               key={i}
               onClick={() => hasEvents && onSelectDay(day)}
               disabled={!hasEvents}
-              className={`aspect-square rounded-xl flex flex-col items-center justify-center gap-0.5 ${inMonth ? '' : 'opacity-30'} ${
-                isToday ? 'bg-accent/15 ring-1 ring-accent/50' : hasEvents ? 'bg-card active:scale-95' : ''
+              className={`press aspect-square rounded-xl flex flex-col items-center justify-center gap-0.5 ${inMonth ? '' : 'opacity-30'} ${
+                isToday ? 'bg-accent/15 ring-1 ring-accent/50' : hasEvents ? 'bg-card' : ''
               }`}
             >
               <span className={`text-xs ${isToday ? 'text-accent font-bold' : 'text-primary'}`}>{day.getDate()}</span>

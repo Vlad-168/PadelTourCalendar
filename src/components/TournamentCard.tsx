@@ -11,7 +11,7 @@ export default function TournamentCard({ t, onClick }: { t: Tournament; onClick:
   return (
     <button
       onClick={onClick}
-      className="w-full glass p-3.5 flex items-center gap-3 text-left active:scale-[0.98] transition-transform"
+      className="press w-full glass p-3.5 flex items-center gap-3 text-left"
     >
       <div className="text-2xl leading-none flex-shrink-0 w-9 text-center">{flagEmoji(t.country)}</div>
 

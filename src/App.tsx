@@ -7,6 +7,7 @@ import CalendarView from './components/CalendarView'
 import BottomSheet from './components/BottomSheet'
 import TournamentDetail from './components/TournamentDetail'
 import TournamentCard from './components/TournamentCard'
+import AnimatedNumber from './components/AnimatedNumber'
 import { TOURNAMENTS, DATA_RANGE } from './data/tournaments'
 import type { Tier, Tournament, ViewMode } from './types'
 import { formatDateRange, getStatus, tournamentsOnDay } from './utils/date'
@@ -22,6 +23,7 @@ export default function App() {
 
   const [calYear, setCalYear] = useState(today.getFullYear())
   const [calMonth, setCalMonth] = useState(today.getMonth())
+  const [calDirection, setCalDirection] = useState(0)
 
   const [selectedTournament, setSelectedTournament] = useState<Tournament | null>(null)
   const [selectedDay, setSelectedDay] = useState<Date | null>(null)
@@ -60,11 +62,13 @@ export default function App() {
   }
 
   function goToday() {
+    setCalDirection(0)
     setCalYear(today.getFullYear())
     setCalMonth(today.getMonth())
   }
 
   function changeMonth(delta: number) {
+    setCalDirection(delta)
     let m = calMonth + delta
     let y = calYear
     if (m < 0) { m = 11; y -= 1 }
@@ -77,7 +81,7 @@ export default function App() {
 
   return (
     <div className="min-h-full flex flex-col">
-      <header className="sticky top-0 z-30 bg-base/95 backdrop-blur-sm border-b border-muted safe-top">
+      <header className="sticky top-0 z-30 bg-base/95 backdrop-blur-sm border-b border-muted safe-top fade-in">
         <div className="px-4 pt-3 pb-3 space-y-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
@@ -87,13 +91,13 @@ export default function App() {
             <div className="flex bg-card rounded-2xl p-0.5">
               <button
                 onClick={() => setViewMode('calendar')}
-                className={`p-1.5 rounded-[14px] ${viewMode === 'calendar' ? 'bg-accent text-base' : 'text-secondary'}`}
+                className={`press p-1.5 rounded-[14px] transition-colors duration-200 ${viewMode === 'calendar' ? 'bg-accent text-base' : 'text-secondary'}`}
               >
                 <CalendarDays size={16} />
               </button>
               <button
                 onClick={() => setViewMode('list')}
-                className={`p-1.5 rounded-[14px] ${viewMode === 'list' ? 'bg-accent text-base' : 'text-secondary'}`}
+                className={`press p-1.5 rounded-[14px] transition-colors duration-200 ${viewMode === 'list' ? 'bg-accent text-base' : 'text-secondary'}`}
               >
                 <ListIcon size={16} />
               </button>
@@ -115,11 +119,16 @@ export default function App() {
           />
 
           <div className="flex items-center justify-between text-xs">
-            <span className="text-secondary">Tournaments found: <span className="text-primary font-medium">{filtered.length}</span></span>
+            <span className="text-secondary">
+              Tournaments found: <span className="text-primary font-medium tabular-nums"><AnimatedNumber value={filtered.length} /></span>
+            </span>
             {liveCount > 0 && (
               <span className="flex items-center gap-1 text-positive font-medium">
-                <Radio size={12} />
-                {liveCount} live now
+                <span className="relative flex items-center justify-center w-3 h-3">
+                  <span className="absolute inline-flex h-full w-full rounded-full bg-positive opacity-60 animate-ping" />
+                  <Radio size={12} className="relative" />
+                </span>
+                <span className="tabular-nums"><AnimatedNumber value={liveCount} /></span> live now
               </span>
             )}
           </div>
@@ -128,10 +137,11 @@ export default function App() {
 
       <main className="flex-1 px-4 pt-4 safe-bottom">
         {viewMode === 'calendar' ? (
-          <>
+          <div key="calendar" className="fade-slide-up">
             <CalendarView
               year={calYear}
               month={calMonth}
+              direction={calDirection}
               tournaments={filtered}
               onPrevMonth={() => changeMonth(-1)}
               onNextMonth={() => changeMonth(1)}
@@ -142,9 +152,11 @@ export default function App() {
               Data from the official FIP calendar (Cupra FIP Tour + Premier Padel):
               {' '}{formatDateRange(DATA_RANGE.start, DATA_RANGE.end)}.
             </p>
-          </>
+          </div>
         ) : (
-          <ListView tournaments={filtered} onSelect={setSelectedTournament} />
+          <div key="list" className="fade-slide-up">
+            <ListView tournaments={filtered} onSelect={setSelectedTournament} />
+          </div>
         )}
       </main>
 

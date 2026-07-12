@@ -11,7 +11,7 @@ export default function TournamentDetail({ t }: { t: Tournament }) {
   const status = getStatus(t)
 
   return (
-    <div className="p-4 space-y-5">
+    <div className="p-4 space-y-5 fade-slide-up">
       <div>
         <div className="flex items-center gap-2 mb-2">
           <TierBadge tier={t.tier} size="md" />
@@ -41,7 +41,7 @@ export default function TournamentDetail({ t }: { t: Tournament }) {
       <div className="flex flex-col gap-2">
         <button
           onClick={() => downloadTournamentICS(t)}
-          className="flex items-center justify-center gap-2 bg-accent text-base font-semibold text-sm py-3 rounded-2xl active:scale-[0.98] transition-transform"
+          className="press flex items-center justify-center gap-2 bg-accent text-base font-semibold text-sm py-3 rounded-2xl"
         >
           <CalendarPlus size={16} />
           Add to calendar
@@ -50,7 +50,7 @@ export default function TournamentDetail({ t }: { t: Tournament }) {
           href={t.url ?? 'https://www.padelfip.com/calendar/'}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center justify-center gap-2 glass text-primary font-semibold text-sm py-3 rounded-2xl active:scale-[0.98] transition-transform"
+          className="press flex items-center justify-center gap-2 glass text-primary font-semibold text-sm py-3 rounded-2xl"
         >
           <ExternalLink size={16} />
           {t.url ? 'Official tournament page' : 'Official FIP calendar'}
