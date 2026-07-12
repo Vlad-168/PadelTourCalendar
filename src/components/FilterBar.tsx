@@ -6,10 +6,10 @@ import { TIER_DOT_CLASSES } from './TierBadge'
 export type StatusFilter = 'all' | TournamentStatus
 
 const STATUS_OPTIONS: { value: StatusFilter; label: string }[] = [
-  { value: 'all', label: 'Все' },
-  { value: 'live', label: 'Сейчас' },
-  { value: 'upcoming', label: 'Скоро' },
-  { value: 'finished', label: 'Прошли' },
+  { value: 'all', label: 'All' },
+  { value: 'live', label: 'Live' },
+  { value: 'upcoming', label: 'Upcoming' },
+  { value: 'finished', label: 'Finished' },
 ]
 
 interface Props {
@@ -46,7 +46,7 @@ export default function FilterBar({
         <input
           value={search}
           onChange={(e) => onSearchChange(e.target.value)}
-          placeholder="Турнир, город или страна"
+          placeholder="Tournament, city or country"
           className="w-full glass pl-9 pr-9 py-2.5 text-sm placeholder:text-tertiary focus:outline-none focus:ring-1 focus:ring-accent"
         />
         {search && (
@@ -99,7 +99,7 @@ export default function FilterBar({
           onChange={(e) => onCountryChange(e.target.value)}
           className="glass px-2.5 text-xs font-medium max-w-[38%] focus:outline-none"
         >
-          <option value="">Все страны</option>
+          <option value="">All countries</option>
           {countries.map((c) => (
             <option key={c} value={c}>{c}</option>
           ))}
@@ -108,7 +108,7 @@ export default function FilterBar({
 
       {hasActiveFilters && (
         <button onClick={onReset} className="text-xs text-secondary underline underline-offset-2">
-          Сбросить фильтры
+          Reset filters
         </button>
       )}
     </div>

@@ -1,9 +1,9 @@
 import type { TournamentStatus } from '../types'
 
 const STATUS_META: Record<TournamentStatus, { label: string; dot: string; text: string }> = {
-  live: { label: 'Идёт сейчас', dot: 'bg-positive', text: 'text-positive' },
-  upcoming: { label: 'Скоро', dot: 'bg-court', text: 'text-court' },
-  finished: { label: 'Завершён', dot: 'bg-tertiary', text: 'text-secondary' },
+  live: { label: 'Live now', dot: 'bg-positive', text: 'text-positive' },
+  upcoming: { label: 'Upcoming', dot: 'bg-court', text: 'text-court' },
+  finished: { label: 'Finished', dot: 'bg-tertiary', text: 'text-secondary' },
 }
 
 export default function StatusBadge({ status }: { status: TournamentStatus }) {

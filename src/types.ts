@@ -26,6 +26,7 @@ export interface Tournament {
   countryCode: string | null
   startDate: string // ISO yyyy-mm-dd
   endDate: string // ISO yyyy-mm-dd
+  url: string | null // official padelfip.com event page, when known
 }
 
 export type TournamentStatus = 'upcoming' | 'live' | 'finished'

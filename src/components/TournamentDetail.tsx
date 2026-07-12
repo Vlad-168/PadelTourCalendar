@@ -33,7 +33,7 @@ export default function TournamentDetail({ t }: { t: Tournament }) {
         </div>
         <div className="h-px bg-muted" />
         <div>
-          <div className="text-secondary text-xs mb-0.5">Даты проведения</div>
+          <div className="text-secondary text-xs mb-0.5">Dates</div>
           <div className="text-primary text-sm font-medium">{formatDateRange(t.startDate, t.endDate)}</div>
         </div>
       </div>
@@ -44,16 +44,16 @@ export default function TournamentDetail({ t }: { t: Tournament }) {
           className="flex items-center justify-center gap-2 bg-accent text-base font-semibold text-sm py-3 rounded-2xl active:scale-[0.98] transition-transform"
         >
           <CalendarPlus size={16} />
-          Добавить в календарь
+          Add to calendar
         </button>
         <a
-          href="https://www.padelfip.com/calendar/"
+          href={t.url ?? 'https://www.padelfip.com/calendar/'}
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-2 glass text-primary font-semibold text-sm py-3 rounded-2xl active:scale-[0.98] transition-transform"
         >
           <ExternalLink size={16} />
-          Официальный календарь FIP
+          {t.url ? 'Official tournament page' : 'Official FIP calendar'}
         </a>
       </div>
     </div>

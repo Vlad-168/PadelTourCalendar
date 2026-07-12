@@ -18,7 +18,8 @@ export default defineConfig({
       manifest: {
         name: 'Padel Tour Calendar',
         short_name: 'PadelTour',
-        description: 'Календарь и фильтры турниров FIP / Premier Padel',
+        description: 'Calendar and filters for FIP / Premier Padel tournaments',
+        lang: 'en',
         theme_color: '#0B1220',
         background_color: '#0B1220',
         display: 'standalone',

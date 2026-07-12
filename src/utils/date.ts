@@ -1,21 +1,16 @@
 import type { Tournament, TournamentStatus } from '../types'
 
 const MONTHS_FULL = [
-  'января', 'февраля', 'марта', 'апреля', 'мая', 'июня',
-  'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря',
-]
-
-const MONTHS_NOMINATIVE = [
-  'Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь',
-  'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь',
+  'January', 'February', 'March', 'April', 'May', 'June',
+  'July', 'August', 'September', 'October', 'November', 'December',
 ]
 
 const MONTHS_SHORT = [
-  'янв', 'фев', 'мар', 'апр', 'май', 'июн',
-  'июл', 'авг', 'сен', 'окт', 'ноя', 'дек',
+  'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+  'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec',
 ]
 
-const WEEKDAYS_SHORT = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс']
+const WEEKDAYS_SHORT = ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su']
 
 export function parseISO(iso: string): Date {
   const [y, m, d] = iso.split('-').map(Number)
@@ -34,7 +29,7 @@ export function startOfDay(d: Date): Date {
 }
 
 export function monthLabel(year: number, month: number): string {
-  return `${MONTHS_NOMINATIVE[month]} ${year}`
+  return `${MONTHS_FULL[month]} ${year}`
 }
 
 export function weekdayLabels(): string[] {

@@ -9,8 +9,8 @@ export const TIER_META: Record<Tier, TierMeta> = {
   gold: { label: 'FIP Gold', shortLabel: 'Gold', group: 'fip', color: 'tier-gold' },
   silver: { label: 'FIP Silver', shortLabel: 'Silver', group: 'fip', color: 'tier-silver' },
   bronze: { label: 'FIP Bronze', shortLabel: 'Bronze', group: 'fip', color: 'tier-bronze' },
-  team: { label: 'Командный турнир', shortLabel: 'Team', group: 'other', color: 'tier-other' },
-  university: { label: 'Студенческий чемпионат', shortLabel: 'University', group: 'other', color: 'tier-other' },
+  team: { label: 'Team event', shortLabel: 'Team', group: 'other', color: 'tier-other' },
+  university: { label: 'University championship', shortLabel: 'University', group: 'other', color: 'tier-other' },
 }
 
 export const TIER_ORDER: Tier[] = ['finals', 'major', 'p1', 'p2', 'platinum', 'gold', 'silver', 'bronze', 'team', 'university']

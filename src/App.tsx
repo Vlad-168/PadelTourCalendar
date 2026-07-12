@@ -115,11 +115,11 @@ export default function App() {
           />
 
           <div className="flex items-center justify-between text-xs">
-            <span className="text-secondary">Найдено турниров: <span className="text-primary font-medium">{filtered.length}</span></span>
+            <span className="text-secondary">Tournaments found: <span className="text-primary font-medium">{filtered.length}</span></span>
             {liveCount > 0 && (
               <span className="flex items-center gap-1 text-positive font-medium">
                 <Radio size={12} />
-                {liveCount} идут сейчас
+                {liveCount} live now
               </span>
             )}
           </div>
@@ -139,7 +139,7 @@ export default function App() {
               onSelectDay={setSelectedDay}
             />
             <p className="text-tertiary text-[11px] text-center mt-4 pb-8">
-              Данные из официального календаря FIP (Cupra FIP Tour + Premier Padel):
+              Data from the official FIP calendar (Cupra FIP Tour + Premier Padel):
               {' '}{formatDateRange(DATA_RANGE.start, DATA_RANGE.end)}.
             </p>
           </>
@@ -151,7 +151,7 @@ export default function App() {
       <BottomSheet
         open={!!selectedDay}
         onClose={() => setSelectedDay(null)}
-        title={selectedDay ? selectedDay.toLocaleDateString('ru-RU', { day: 'numeric', month: 'long' }) : ''}
+        title={selectedDay ? selectedDay.toLocaleDateString('en-GB', { day: 'numeric', month: 'long' }) : ''}
       >
         <div className="p-4 space-y-2">
           {dayTournaments.map((t) => (
@@ -167,7 +167,7 @@ export default function App() {
         </div>
       </BottomSheet>
 
-      <BottomSheet open={!!selectedTournament} onClose={() => setSelectedTournament(null)} title="Турнир">
+      <BottomSheet open={!!selectedTournament} onClose={() => setSelectedTournament(null)} title="Tournament">
         {selectedTournament && <TournamentDetail t={selectedTournament} />}
       </BottomSheet>
     </div>

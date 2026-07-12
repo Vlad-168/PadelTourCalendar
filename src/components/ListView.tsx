@@ -25,8 +25,8 @@ export default function ListView({ tournaments, onSelect }: { tournaments: Tourn
     return (
       <EmptyState
         icon={SearchX}
-        title="Ничего не найдено"
-        subtitle="Попробуйте изменить фильтры или запрос поиска"
+        title="Nothing found"
+        subtitle="Try changing the filters or search query"
       />
     )
   }
