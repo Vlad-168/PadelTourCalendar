@@ -180,7 +180,7 @@ const ROWS: Row[] = [
   // August 2026
   ['bronze', 'Portimao', 'Portimao', 'Portugal', '2026-08-03', '2026-08-09', 'https://www.padelfip.com/events/fip-bronze-portimao-2026/'],
   ['p1', 'London', 'London', 'Great Britain', '2026-08-03', '2026-08-09', 'https://www.padelfip.com/events/london-p1-2026/'],
-  ['silver', 'Indonesia', 'Tbd', 'Indonesia', '2026-08-10', '2026-08-16', 'https://www.padelfip.com/events/fip-silver-indonesia-2026/'],
+  ['silver', 'Bali Island Sports', 'Bali', 'Indonesia', '2026-08-10', '2026-08-16', 'https://www.padelfip.com/events/fip-silver-indonesia-2026/'],
   ['bronze', 'Padel Barcelona El Prat', 'Barcelona', 'Spain', '2026-08-10', '2026-08-16', 'https://www.padelfip.com/events/fip-bronze-barcelona-2026/'],
   ['bronze', 'Mol', 'Mol', 'Belgium', '2026-08-10', '2026-08-16', 'https://www.padelfip.com/events/fip-bronze-mol-2026/'],
   ['gold', 'San Luis', 'San Luis', 'Mexico', '2026-08-17', '2026-08-22', 'https://www.padelfip.com/events/fip-gold-san-luis-2026/'],
