@@ -216,7 +216,6 @@ const ROWS: Row[] = [
   ['silver', 'Nairobi', 'Nairobi', 'Kenya', '2026-09-15', '2026-09-20', 'https://www.padelfip.com/events/fip-silver-nairobi-2026/'],
   ['bronze', 'Sportclub Alicante', 'Alicante', 'Spain', '2026-09-14', '2026-09-20', 'https://www.padelfip.com/events/fip-bronze-sportclub-alicante-2026/'],
   ['bronze', 'Viña Del Mar VII', 'Viña Del Mar', 'Chile', '2026-09-21', '2026-09-27', 'https://www.padelfip.com/events/fip-bronze-vina-del-mar-vii-2026/'],
-  ['silver', 'Amsterdam', 'Amsterdam', 'Netherlands', '2026-09-21', '2026-09-27', 'https://www.padelfip.com/events/fip-silver-amsterdam-2026/'],
   ['bronze', 'Dubai', 'Dubai', 'United Arab Emirates', '2026-09-21', '2026-09-27', 'https://www.padelfip.com/events/fip-bronze-dubai-2026/'],
   ['bronze', 'Tunisia I', 'Tunisia', 'Tunisia', '2026-09-21', '2026-09-27', 'https://www.padelfip.com/events/fip-bronze-tunisia-i-2026/'],
   ['silver', 'Sâo Joâo Da Madeira', 'Sâo Joâo Da Madeira', 'Portugal', '2026-09-21', '2026-09-27', 'https://www.padelfip.com/events/fip-silver-sao-joao-da-madeira-2026/'],
