@@ -187,7 +187,7 @@ const ROWS: Row[] = [
   ['silver', 'ESC Padel II', 'Espoo', 'Finland', '2026-08-19', '2026-08-22', 'https://www.padelfip.com/events/fip-silver-esc-padel-ii-2026/'],
   ['bronze', 'Chile VI', 'Castro', 'Chile', '2026-08-21', '2026-08-23', 'https://www.padelfip.com/events/fip-bronze-castro-2026/'],
   ['silver', '3F Elettronica Porto Sant\'Elpidio', 'Porto Sant\'Elpidio', 'Italy', '2026-08-20', '2026-08-23', 'https://www.padelfip.com/events/fip-silver-3f-elettronica-porto-stelpidio-2026/'],
-  ['bronze', 'Bamvolea Ciudad Raqueta', 'Madrid', 'Spain', '2026-08-24', '2026-08-29', 'https://www.padelfip.com/events/fip-bronze-bamvolea-ciudad-raqueta-2026/'],
+  ['bronze', 'Bamvolea Ciudad Raqueta', 'Madrid', 'Spain', '2026-08-24', '2026-08-30', 'https://www.padelfip.com/events/fip-bronze-bamvolea-ciudad-raqueta-2026/'],
   ['bronze', 'Westerbork', 'Westerbork', 'Netherlands', '2026-08-26', '2026-08-30', 'https://www.padelfip.com/events/fip-bronze-men-netherlands-west-2026/'],
   ['gold', 'Belgrade', 'Belgrade', 'Serbia', '2026-08-24', '2026-08-30', 'https://www.padelfip.com/events/fip-gold-belgrade-2026/'],
   ['silver', 'Mcallen Texas', 'Mcallen Texas', 'United States', '2026-08-27', '2026-08-30', 'https://www.padelfip.com/events/fip-silver-mcallen-texas-2026/'],
