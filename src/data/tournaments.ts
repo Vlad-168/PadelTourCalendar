@@ -192,11 +192,11 @@ const ROWS: Row[] = [
   ['gold', 'Belgrade', 'Belgrade', 'Serbia', '2026-08-24', '2026-08-30', 'https://www.padelfip.com/events/fip-gold-belgrade-2026/'],
   ['silver', 'Mcallen Texas', 'Mcallen Texas', 'United States', '2026-08-27', '2026-08-30', 'https://www.padelfip.com/events/fip-silver-mcallen-texas-2026/'],
   ['silver', 'Westerbork', 'Westerbork', 'Netherlands', '2026-08-28', '2026-08-30', 'https://www.padelfip.com/events/fip-silver-women-netherlands-west-2026/'],
-  ['bronze', 'Sassuolo', 'Sassuolo', 'Italy', '2026-08-31', '2026-09-06', 'https://www.padelfip.com/events/fip-bronze-sassuolo-2026/'],
+  ['bronze', 'Sassuolo', 'Sassuolo', 'Italy', '2026-09-03', '2026-09-06', 'https://www.padelfip.com/events/fip-bronze-sassuolo-2026/'],
   ['silver', 'Cordoba', 'Cordoba', 'Spain', '2026-08-30', '2026-09-06', 'https://www.padelfip.com/events/fip-silver-cordoba-2026/'],
-  ['bronze', 'Marnes', 'Marnes', 'France', '2026-08-31', '2026-09-05', 'https://www.padelfip.com/events/fip-bronze-marnes-2026-2/'],
-  ['bronze', 'Phoenix Open', 'Phoenix', 'United States', '2026-08-31', '2026-09-06', 'https://www.padelfip.com/events/fip-bronze-mesa-arizona-2026/'],
-  ['bronze', 'Paraguay III', 'Tbd', 'Paraguay', '2026-08-31', '2026-09-06', 'https://www.padelfip.com/events/bronze-paraguay-iii-2026-2/'],
+  ['bronze', 'Marnes', 'Marnes', 'France', '2026-09-02', '2026-09-05', 'https://www.padelfip.com/events/fip-bronze-marnes-2026-2/'],
+  ['bronze', 'Phoenix Open', 'Phoenix', 'United States', '2026-09-03', '2026-09-06', 'https://www.padelfip.com/events/fip-bronze-mesa-arizona-2026/'],
+  ['bronze', 'Paraguay III', 'Tbd', 'Paraguay', '2026-09-04', '2026-09-06', 'https://www.padelfip.com/events/bronze-paraguay-iii-2026-2/'],
   ['p1', 'Comunidad De Madrid', 'Madrid', 'Spain', '2026-08-29', '2026-09-06', 'https://www.padelfip.com/events/comunidad-de-madrid-p1-2026/'],
 
   // September 2026
@@ -224,7 +224,6 @@ const ROWS: Row[] = [
   ['gold', 'Mediolanum Perugia', 'Perugia', 'Italy', '2026-09-28', '2026-10-04', 'https://www.padelfip.com/events/fip-gold-mediolanum-perugia-2026/'],
   ['bronze', 'Pakistan I', 'Karachi', 'Pakistan', '2026-09-28', '2026-10-04', 'https://www.padelfip.com/events/fip-bronze-pakistan-i-2026/'],
   ['bronze', 'Tunissia II', 'Tunisia', 'Tunisia', '2026-09-28', '2026-10-04', 'https://www.padelfip.com/events/fip-bronze-tunissia-ii-2026/'],
-  ['bronze', 'Yerevan Cup', 'Yerevan', 'Armenia', '2026-09-28', '2026-10-04', 'https://www.padelfip.com/events/fip-bronze-yerevan-cup-2026/'],
   ['bronze', 'Almeirim', 'Almeirim', 'Portugal', '2026-09-28', '2026-10-04', 'https://www.padelfip.com/events/fip-bronze-almeirim-2026/'],
   ['p2', 'Rotterdam', 'Rotterdam', 'Netherlands', '2026-09-28', '2026-10-04', 'https://www.padelfip.com/events/rotterdam-p2-2026/'],
 
@@ -247,6 +246,7 @@ const ROWS: Row[] = [
   ['bronze', 'Miami II', 'Miami', 'United States', '2026-10-12', '2026-10-18', 'https://www.padelfip.com/events/fip-bronze-miami-2026-2/'],
   ['p1', 'Milano', 'Milano', 'Italy', '2026-10-12', '2026-10-18', 'https://www.padelfip.com/events/milano-p1-2026/'],
   ['bronze', 'Agrigento II', 'Agrigento', 'Italy', '2026-10-19', '2026-10-25', 'https://www.padelfip.com/events/fip-bronze-agrigento-ii-2026/'],
+  ['bronze', 'EWH City Pádel Taunton', 'Taunton', 'Great Britain', '2026-10-19', '2026-10-25', 'https://www.padelfip.com/events/fip-bronze-ewh-city-padel-taunton/'],
   ['bronze', 'Antalya', 'Antalya', 'Turkey', '2026-10-19', '2026-10-25', 'https://www.padelfip.com/events/fip-bronze-antalya-2026/'],
   ['bronze', 'Metepec', 'Metepec', 'Mexico', '2026-10-19', '2026-10-25', 'https://www.padelfip.com/events/fip-bronze-metepec-2026/'],
   ['gold', 'Melilla Ciudad Del Deporte', 'Melilla', 'Spain', '2026-10-19', '2026-10-25', 'https://www.padelfip.com/events/fip-gold-melilla-ciudad-del-deporte-2026/'],
