@@ -200,9 +200,9 @@ const ROWS: Row[] = [
   ['p1', 'Comunidad De Madrid', 'Madrid', 'Spain', '2026-08-29', '2026-09-06', 'https://www.padelfip.com/events/comunidad-de-madrid-p1-2026/'],
 
   // September 2026
-  ['bronze', 'High Velocity Phuket', 'Phuket', 'Thailand', '2026-09-07', '2026-09-13', 'https://www.padelfip.com/events/fip-bronze-high-velocity-phuket-2026/'],
+  ['bronze', 'High Velocity Phuket', 'Phuket', 'Thailand', '2026-09-08', '2026-09-13', 'https://www.padelfip.com/events/fip-bronze-high-velocity-phuket-2026/'],
   ['silver', 'Lisboa', 'Lisboa', 'Portugal', '2026-09-08', '2026-09-13', 'https://www.padelfip.com/events/fip-silver-lisboa-2026/'],
-  ['silver', 'Padel Copa Utrecht 2026', 'Utrecht', 'Netherlands', '2026-09-07', '2026-09-13', 'https://www.padelfip.com/events/fip-silver-padel-copa-utrecht-2026/'],
+  ['silver', 'Padel Copa Utrecht 2026', 'Utrecht', 'Netherlands', '2026-09-09', '2026-09-13', 'https://www.padelfip.com/events/fip-silver-padel-copa-utrecht-2026/'],
   ['gold', 'Bucharest', 'Bucharest', 'Romania', '2026-09-07', '2026-09-13', 'https://www.padelfip.com/events/fip-gold-bucharest/'],
   ['bronze', 'Casablanca', 'Casablanca', 'Morocco', '2026-09-09', '2026-09-13', 'https://www.padelfip.com/events/fip-bronze-casablanca-2026/'],
   ['bronze', 'San Luis', 'San Luis', 'Mexico', '2026-09-07', '2026-09-13', 'https://www.padelfip.com/events/fip-bronze-san-luis-2026/'],
@@ -243,7 +243,6 @@ const ROWS: Row[] = [
   ['bronze', 'Racourt', 'Alkmaar', 'Netherlands', '2026-10-12', '2026-10-18', 'https://www.padelfip.com/events/fip-bronze-racourt-2026/'],
   ['bronze', 'Miami II', 'Miami', 'United States', '2026-10-12', '2026-10-18', 'https://www.padelfip.com/events/fip-bronze-miami-2026-2/'],
   ['p1', 'Milano', 'Milano', 'Italy', '2026-10-12', '2026-10-18', 'https://www.padelfip.com/events/milano-p1-2026/'],
-  ['bronze', 'Agrigento II', 'Agrigento', 'Italy', '2026-10-19', '2026-10-25', 'https://www.padelfip.com/events/fip-bronze-agrigento-ii-2026/'],
   ['bronze', 'EWH City Pádel Taunton', 'Taunton', 'Great Britain', '2026-10-19', '2026-10-25', 'https://www.padelfip.com/events/fip-bronze-ewh-city-padel-taunton/'],
   ['bronze', 'Antalya', 'Antalya', 'Turkey', '2026-10-19', '2026-10-25', 'https://www.padelfip.com/events/fip-bronze-antalya-2026/'],
   ['bronze', 'Metepec', 'Metepec', 'Mexico', '2026-10-19', '2026-10-25', 'https://www.padelfip.com/events/fip-bronze-metepec-2026/'],
@@ -289,6 +288,7 @@ const ROWS: Row[] = [
   ['major', 'Mexico Major', 'Acapulco', 'Mexico', '2026-11-23', '2026-11-29', 'https://www.padelfip.com/events/mexico-major-2026/'],
 
   // December 2026
+  ['platinum', 'Cupra FIP Finals', 'Tbd', 'Tbd', '2026-12-03', '2026-12-06', 'https://www.padelfip.com/events/cupra-fip-finals/'],
   ['finals', 'Premier Padel Finals', 'Barcelona', 'Spain', '2026-12-10', '2026-12-13', 'https://www.padelfip.com/events/premier-padel-finals-2026/'],
 ]
 
