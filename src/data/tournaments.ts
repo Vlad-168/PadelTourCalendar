@@ -258,7 +258,6 @@ const ROWS: Row[] = [
   ['bronze', 'De Uzbekistan', 'Tbd', 'Uzbekistan', '2026-10-26', '2026-11-01', 'https://www.padelfip.com/events/fip-bronze-de-uzbekistan/'],
 
   // November 2026
-  ['bronze', 'Aguascalientes II', 'Aguascalientes', 'Mexico', '2026-11-02', '2026-11-08', 'https://www.padelfip.com/events/fip-bronze-aguascalientes-ii-2026/'],
   ['bronze', 'New Dehli', 'New Dehli', 'India', '2026-11-02', '2026-11-08', 'https://www.padelfip.com/events/fip-bronze-new-dehli-2026/'],
   ['bronze', 'Cyprus IV', 'Tbd', 'Cyprus', '2026-11-02', '2026-11-08', 'https://www.padelfip.com/events/fip-bronze-cyprus-iv-2026/'],
   ['bronze', 'Finland II', 'Tbd', 'Finland', '2026-11-02', '2026-11-08', 'https://www.padelfip.com/events/fip-bronze-finland-2026/'],
@@ -274,7 +273,7 @@ const ROWS: Row[] = [
   ['bronze', 'Acra', 'Acra', 'Ghana', '2026-11-16', '2026-11-22', 'https://www.padelfip.com/events/fip-bronze-acra-2026/'],
   ['silver', 'Go Park Hong Kong', 'Hong Kong', 'Hong Kong', '2026-11-16', '2026-11-22', 'https://www.padelfip.com/events/fip-silver-hong-kong-2026/'],
   ['silver', 'Napoli', 'Napoli', 'Italy', '2026-11-16', '2026-11-22', 'https://www.padelfip.com/events/fip-silver-napoli-2026/'],
-  ['platinum', 'Mexico', 'Tbd', 'Mexico', '2026-11-16', '2026-11-22', 'https://www.padelfip.com/events/fip-platinum-mexico-ii-2026/'],
+  ['platinum', 'Aguascalientes', 'Aguascalientes', 'Mexico', '2026-11-16', '2026-11-22', 'https://www.padelfip.com/events/fip-platinum-aguascalientes-2026/'],
   ['silver', 'Sweden II', 'Skurup', 'Sweden', '2026-11-16', '2026-11-22', 'https://www.padelfip.com/events/fip-silver-sweden-ii-2026/'],
   ['bronze', 'Karachi', 'Karachi', 'Pakistan', '2026-11-16', '2026-11-22', 'https://www.padelfip.com/events/fip-bronze-karachi-2026/'],
   ['bronze', 'Iurreta Padelko', 'Iurreta', 'Spain', '2026-11-16', '2026-11-22', 'https://www.padelfip.com/events/fip-bronze-vizcaya-2026/'],
