@@ -3,6 +3,7 @@
 // new countries can be added without touching the tournament list.
 export const COUNTRY_CODES: Record<string, string> = {
   Australia: 'AU',
+  Maldives: 'MV',
   France: 'FR',
   Spain: 'ES',
   India: 'IN',
