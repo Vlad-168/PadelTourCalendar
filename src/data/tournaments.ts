@@ -234,7 +234,7 @@ const ROWS: Row[] = [
   ['bronze', 'Rovigo', 'Rovigo', 'Italy', '2026-10-05', '2026-10-11', 'https://www.padelfip.com/events/fip-bronze-rovigo-2026/'],
   ['p2', 'Germany', 'Tbd', 'Germany', '2026-10-05', '2026-10-11', 'https://www.padelfip.com/events/germany-p2-2026/'],
   ['gold', 'Ciudad De Sevilla', 'Sevilla', 'Spain', '2026-10-12', '2026-10-18', 'https://www.padelfip.com/events/fip-gold-ciudad-de-sevilla-2026/'],
-  ['bronze', 'Cebu City Philippines', 'Cebu City', 'Philippines', '2026-10-12', '2026-10-18', 'https://www.padelfip.com/events/fip-bronze-cebu-city-philippines/'],
+  ['bronze', 'High Velocity Cebu', 'Cebu City', 'Philippines', '2026-10-12', '2026-10-18', 'https://www.padelfip.com/events/fip-bronze-high-velocity-cebu/'],
   ['bronze', 'Oslo', 'Oslo', 'Norway', '2026-10-12', '2026-10-18', 'https://www.padelfip.com/events/fip-bronze-oslo-2026/'],
   ['bronze', 'Cotonú', 'Cotonú', 'Benin', '2026-10-12', '2026-10-18', 'https://www.padelfip.com/events/fip-bronze-contonu-2026/'],
   ['bronze', 'Oeiras', 'Oeiras', 'Portugal', '2026-10-12', '2026-10-18', 'https://www.padelfip.com/events/fip-bronze-oeiras-2026/'],
