@@ -212,7 +212,7 @@ const ROWS: Row[] = [
   ['silver', 'Bangkok', 'Bangkok', 'Thailand', '2026-09-14', '2026-09-20', 'https://www.padelfip.com/events/fip-silver-bangkok-2026/'],
   ['silver', 'Guimaraes', 'Guimaraes', 'Portugal', '2026-09-16', '2026-09-20', 'https://www.padelfip.com/events/fip-silver-guimaraes-2026/'],
   ['silver', 'Budapest', 'Budapest', 'Hungary', '2026-09-16', '2026-09-20', 'https://www.padelfip.com/events/fip-silver-budapest-2026/'],
-  ['silver', 'Nairobi', 'Nairobi', 'Kenya', '2026-09-15', '2026-09-20', 'https://www.padelfip.com/events/fip-silver-nairobi-2026/'],
+  ['silver', 'Nairobi', 'Nairobi', 'Kenya', '2026-09-16', '2026-09-20', 'https://www.padelfip.com/events/fip-silver-nairobi-2026/'],
   ['bronze', 'Sportclub Alicante', 'Alicante', 'Spain', '2026-09-16', '2026-09-20', 'https://www.padelfip.com/events/fip-bronze-sportclub-alicante-2026/'],
   ['bronze', 'Viña Del Mar VII', 'Viña Del Mar', 'Chile', '2026-09-21', '2026-09-27', 'https://www.padelfip.com/events/fip-bronze-vina-del-mar-vii-2026/'],
   ['bronze', 'Dubai', 'Dubai', 'United Arab Emirates', '2026-09-21', '2026-09-27', 'https://www.padelfip.com/events/fip-bronze-dubai-2026/'],
