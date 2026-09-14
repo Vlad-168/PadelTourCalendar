@@ -209,7 +209,7 @@ const ROWS: Row[] = [
   ['major', 'Paris Major', 'Paris', 'France', '2026-09-06', '2026-09-13', 'https://www.padelfip.com/events/paris-major-2026/'],
   ['gold', 'Sao Paulo', 'Sao Paulo', 'Brazil', '2026-09-16', '2026-09-20', 'https://www.padelfip.com/events/fip-gold-sao-paulo/'],
   ['bronze', 'QNB Cup Izmir', 'Izmir', 'Turkey', '2026-09-16', '2026-09-20', 'https://www.padelfip.com/events/fip-bronze-qnb-cup-izmir-2026/'],
-  ['silver', 'Bangkok', 'Bangkok', 'Thailand', '2026-09-14', '2026-09-20', 'https://www.padelfip.com/events/fip-silver-bangkok-2026/'],
+  ['silver', 'High Velocity Bangkok', 'Bangkok', 'Thailand', '2026-09-16', '2026-09-20', 'https://www.padelfip.com/events/fip-silver-bangkok-2026/'],
   ['silver', 'Guimaraes', 'Guimaraes', 'Portugal', '2026-09-16', '2026-09-20', 'https://www.padelfip.com/events/fip-silver-guimaraes-2026/'],
   ['silver', 'Budapest', 'Budapest', 'Hungary', '2026-09-16', '2026-09-20', 'https://www.padelfip.com/events/fip-silver-budapest-2026/'],
   ['silver', 'Nairobi', 'Nairobi', 'Kenya', '2026-09-16', '2026-09-20', 'https://www.padelfip.com/events/fip-silver-nairobi-2026/'],
