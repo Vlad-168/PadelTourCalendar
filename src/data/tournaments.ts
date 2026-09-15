@@ -227,7 +227,7 @@ const ROWS: Row[] = [
   ['p2', 'Rotterdam', 'Rotterdam', 'Netherlands', '2026-09-28', '2026-10-04', 'https://www.padelfip.com/events/rotterdam-p2-2026/'],
 
   // October 2026
-  ['bronze', 'Paraguay IV', 'Tbd', 'Paraguay', '2026-10-05', '2026-10-11', 'https://www.padelfip.com/events/bronze-paraguay-iii-2026/'],
+  ['bronze', 'Paraguay IV', 'Asuncion', 'Paraguay', '2026-10-05', '2026-10-11', 'https://www.padelfip.com/events/bronze-paraguay-iii-2026/'],
   ['bronze', 'Copenhagen', 'Taastrup', 'Denmark', '2026-10-05', '2026-10-11', 'https://www.padelfip.com/events/fip-bronze-copenhagen-2026/'],
   ['silver', 'Porec Parenzo', 'Porec Parenzo', 'Croatia', '2026-10-05', '2026-10-11', 'https://www.padelfip.com/events/fip-silver-porec-parenzo-2026/'],
   ['silver', 'R3 Bullpadel Cup Stratford', 'London', 'Great Britain', '2026-10-05', '2026-10-11', 'https://www.padelfip.com/events/fip-silver-r3-bullpadel-cup-stratford/'],
@@ -243,7 +243,7 @@ const ROWS: Row[] = [
   ['bronze', 'EWH City Pádel Taunton', 'Taunton', 'Great Britain', '2026-10-19', '2026-10-25', 'https://www.padelfip.com/events/fip-bronze-ewh-city-padel-taunton/'],
   ['bronze', 'Antalya', 'Antalya', 'Turkey', '2026-10-19', '2026-10-25', 'https://www.padelfip.com/events/fip-bronze-antalya-2026/'],
   ['bronze', 'Metepec', 'Metepec', 'Mexico', '2026-10-19', '2026-10-25', 'https://www.padelfip.com/events/fip-bronze-metepec-2026/'],
-  ['gold', 'Melilla Ciudad Del Deporte', 'Melilla', 'Spain', '2026-10-19', '2026-10-25', 'https://www.padelfip.com/events/fip-gold-melilla-ciudad-del-deporte-2026/'],
+  ['gold', 'Melilla Ciudad Del Deporte', 'Melilla', 'Spain', '2026-10-19', '2026-10-24', 'https://www.padelfip.com/events/fip-gold-melilla-ciudad-del-deporte-2026/'],
   ['silver', 'Metepec', 'Metepec', 'Mexico', '2026-10-19', '2026-10-25', 'https://www.padelfip.com/events/fip-silver-metepec-2026/'],
   ['bronze', 'High Velocity Samui', 'Samui', 'Thailand', '2026-10-19', '2026-10-25', 'https://www.padelfip.com/events/fip-bronze-high-velocity-samui-2026/'],
   ['bronze', 'Europabeat Santiago', 'Santiago', 'Chile', '2026-10-19', '2026-10-25', 'https://www.padelfip.com/events/fip-bronze-europabeat-santiago-2026/'],
