@@ -214,7 +214,7 @@ const ROWS: Row[] = [
   ['silver', 'Budapest', 'Budapest', 'Hungary', '2026-09-16', '2026-09-20', 'https://www.padelfip.com/events/fip-silver-budapest-2026/'],
   ['silver', 'Nairobi', 'Nairobi', 'Kenya', '2026-09-16', '2026-09-20', 'https://www.padelfip.com/events/fip-silver-nairobi-2026/'],
   ['bronze', 'Sportclub Alicante', 'Alicante', 'Spain', '2026-09-16', '2026-09-20', 'https://www.padelfip.com/events/fip-bronze-sportclub-alicante-2026/'],
-  ['bronze', 'Viña Del Mar VII', 'Viña Del Mar', 'Chile', '2026-09-21', '2026-09-27', 'https://www.padelfip.com/events/fip-bronze-vina-del-mar-vii-2026/'],
+  ['bronze', 'Viña Del Mar VII', 'Viña Del Mar', 'Chile', '2026-09-25', '2026-09-27', 'https://www.padelfip.com/events/fip-bronze-vina-del-mar-vii-2026/'],
   ['bronze', 'Damac Dubai', 'Dubai', 'United Arab Emirates', '2026-09-22', '2026-09-27', 'https://www.padelfip.com/events/fip-bronze-dubai-2026/'],
   ['bronze', 'Tunisia I', 'Tunisia', 'Tunisia', '2026-09-23', '2026-09-27', 'https://www.padelfip.com/events/fip-bronze-tunisia-i-2026/'],
   ['silver', 'Sâo Joâo Da Madeira', 'Sâo Joâo da Madeira', 'Portugal', '2026-09-24', '2026-09-27', 'https://www.padelfip.com/events/fip-silver-sao-joao-da-madeira-2026/'],
