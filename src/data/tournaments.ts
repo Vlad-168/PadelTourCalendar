@@ -216,7 +216,7 @@ const ROWS: Row[] = [
   ['bronze', 'Sportclub Alicante', 'Alicante', 'Spain', '2026-09-16', '2026-09-20', 'https://www.padelfip.com/events/fip-bronze-sportclub-alicante-2026/'],
   ['bronze', 'Viña Del Mar VII', 'Viña Del Mar', 'Chile', '2026-09-25', '2026-09-27', 'https://www.padelfip.com/events/fip-bronze-vina-del-mar-vii-2026/'],
   ['bronze', 'Damac Dubai', 'Dubai', 'United Arab Emirates', '2026-09-22', '2026-09-27', 'https://www.padelfip.com/events/fip-bronze-dubai-2026/'],
-  ['bronze', 'Tunisia I', 'Tunisia', 'Tunisia', '2026-09-23', '2026-09-27', 'https://www.padelfip.com/events/fip-bronze-tunisia-i-2026/'],
+  ['bronze', 'Tunisia I', 'Tunisia', 'Tunisia', '2026-09-24', '2026-09-27', 'https://www.padelfip.com/events/fip-bronze-tunisia-i-2026/'],
   ['silver', 'Sâo Joâo Da Madeira', 'Sâo Joâo da Madeira', 'Portugal', '2026-09-24', '2026-09-27', 'https://www.padelfip.com/events/fip-silver-sao-joao-da-madeira-2026/'],
   ['platinum', 'Lyon', 'Lyon', 'France', '2026-09-21', '2026-09-27', 'https://www.padelfip.com/events/fip-platinum-lyon-2026/'],
   ['silver', 'Houten', 'Houten', 'Netherlands', '2026-09-25', '2026-09-27', 'https://www.padelfip.com/events/fip-silver-houten/'],
@@ -254,7 +254,6 @@ const ROWS: Row[] = [
   ['bronze', 'De Uzbekistan', 'Tashkent', 'Uzbekistan', '2026-10-26', '2026-11-01', 'https://www.padelfip.com/events/fip-bronze-de-uzbekistan/'],
 
   // November 2026
-  ['bronze', 'Kerala', 'Kerala', 'India', '2026-11-02', '2026-11-08', 'https://www.padelfip.com/events/fip-bronze-kerala-2026/'],
   ['silver', 'Maldives', 'Malé', 'Maldives', '2026-11-02', '2026-11-08', 'https://www.padelfip.com/events/fip-silver-maldives-2026/'],
   ['bronze', 'Cyprus IV', 'Tbd', 'Cyprus', '2026-11-02', '2026-11-08', 'https://www.padelfip.com/events/fip-bronze-cyprus-iv-2026/'],
   ['bronze', 'Finland II', 'Espoo', 'Finland', '2026-11-02', '2026-11-08', 'https://www.padelfip.com/events/fip-bronze-finland-2026/'],
@@ -264,6 +263,7 @@ const ROWS: Row[] = [
   ['silver', 'Oporto II', 'Oporto', 'Portugal', '2026-11-09', '2026-11-15', 'https://www.padelfip.com/events/fip-silver-oporto-2-2026-2/'],
   ['bronze', 'Doha II', 'Doha', 'Qatar', '2026-11-09', '2026-11-15', 'https://www.padelfip.com/events/fip-bronze-doha-2026-2/'],
   ['silver', 'Mediolanum Como', 'Como', 'Italy', '2026-11-09', '2026-11-15', 'https://www.padelfip.com/events/fip-silver-mediolanum-como-2026/'],
+  ['bronze', 'Kochi', 'Kochi', 'India', '2026-11-09', '2026-11-15', 'https://www.padelfip.com/events/fip-bronze-kochi-2026/'],
   ['bronze', 'Rochefort', 'Rochefort', 'Belgium', '2026-11-16', '2026-11-22', 'https://www.padelfip.com/events/fip-bronze-rochefort-2026/'],
   ['bronze', 'Acra', 'Acra', 'Ghana', '2026-11-16', '2026-11-22', 'https://www.padelfip.com/events/fip-bronze-acra-2026/'],
   ['silver', 'Go Park Hong Kong', 'Hong Kong', 'Hong Kong', '2026-11-16', '2026-11-22', 'https://www.padelfip.com/events/fip-silver-hong-kong-2026/'],
