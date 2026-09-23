@@ -248,7 +248,7 @@ const ROWS: Row[] = [
   ['major', 'Kuwait Major', 'Kuwait', 'Kuwait', '2026-10-26', '2026-10-31', 'https://www.padelfip.com/events/kuwait-major-2026/'],
   ['bronze', 'Jc Ferrero Academy', 'Villena', 'Spain', '2026-10-26', '2026-11-01', 'https://www.padelfip.com/events/fip-bronze-jc-ferrero-academy-2026/'],
   ['bronze', 'Cyprus III', 'Tbd', 'Cyprus', '2026-10-26', '2026-11-01', 'https://www.padelfip.com/events/fip-bronze-cyprus-iii-2026/'],
-  ['gold', 'Mediolanum Torino', 'Torino', 'Italy', '2026-10-26', '2026-11-01', 'https://www.padelfip.com/events/fip-gold-mediolanum-torino-2026/'],
+  ['gold', 'Mediolanum Torino', 'Torino', 'Italy', '2026-10-27', '2026-11-01', 'https://www.padelfip.com/events/fip-gold-mediolanum-torino-2026/'],
   ['silver', 'Dubai', 'Dubai', 'United Arab Emirates', '2026-10-26', '2026-11-01', 'https://www.padelfip.com/events/fip-silver-dubai-2026-2/'],
   ['bronze', 'Ko Panghan', 'Panghan', 'Thailand', '2026-10-26', '2026-11-01', 'https://www.padelfip.com/events/fip-bronze-ko-panghan/'],
   ['bronze', 'De Uzbekistan', 'Tashkent', 'Uzbekistan', '2026-10-26', '2026-11-01', 'https://www.padelfip.com/events/fip-bronze-de-uzbekistan/'],
