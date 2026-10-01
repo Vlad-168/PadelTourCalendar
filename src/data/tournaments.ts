@@ -273,7 +273,7 @@ const ROWS: Row[] = [
   ['silver', 'Roeselare', 'Roeselare', 'Belgium', '2026-11-23', '2026-11-29', 'https://www.padelfip.com/events/fip-silver-roeselare-2026/'],
   ['bronze', 'Roeselare', 'Roeselare', 'Belgium', '2026-11-23', '2026-11-29', 'https://www.padelfip.com/events/fip-bronze-roeselare-2026/'],
   ['bronze', 'Chile IX', 'Tbd', 'Chile', '2026-11-23', '2026-11-29', 'https://www.padelfip.com/events/fip-bronze-chile-ix-2026-2/'],
-  ['bronze', 'Comunidad Valenciana IX', 'Tbd', 'Spain', '2026-11-23', '2026-11-29', 'https://www.padelfip.com/events/fip-bronze-comunidad-valenciana-ix-2026/'],
+  ['bronze', 'Denia', 'Tbd', 'Spain', '2026-11-23', '2026-11-29', 'https://www.padelfip.com/events/fip-bronze-denia-2026/'],
   ['bronze', 'High Velocity Phuket', 'Phuket', 'Thailand', '2026-11-23', '2026-11-29', 'https://www.padelfip.com/events/fip-bronze-high-velocity-phuket-2026-2/'],
   ['bronze', 'Egypt V', 'Tbd', 'Egypt', '2026-11-23', '2026-11-29', 'https://www.padelfip.com/events/fip-bronze-egypt-vi-2026/'],
   ['major', 'Mexico Major', 'Acapulco', 'Mexico', '2026-11-23', '2026-11-29', 'https://www.padelfip.com/events/mexico-major-2026/'],
