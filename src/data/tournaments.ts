@@ -228,7 +228,7 @@ const ROWS: Row[] = [
 
   // October 2026
   ['bronze', 'Paraguay IV', 'Asuncion', 'Paraguay', '2026-10-09', '2026-10-11', 'https://www.padelfip.com/events/bronze-paraguay-iii-2026/'],
-  ['bronze', 'DBC Coffee Copenhagen', 'Taastrup', 'Denmark', '2026-10-05', '2026-10-11', 'https://www.padelfip.com/events/fip-bronze-dbc-coffee-copenhagen/'],
+  ['bronze', 'DBC Coffee Copenhagen', 'Taastrup', 'Denmark', '2026-10-07', '2026-10-11', 'https://www.padelfip.com/events/fip-bronze-dbc-coffee-copenhagen/'],
   ['silver', 'Porec Parenzo', 'Porec Parenzo', 'Croatia', '2026-10-07', '2026-10-11', 'https://www.padelfip.com/events/fip-silver-porec-parenzo-2026/'],
   ['silver', 'R3 Bullpadel Cup Stratford', 'London', 'Great Britain', '2026-10-07', '2026-10-11', 'https://www.padelfip.com/events/fip-silver-r3-bullpadel-cup-stratford/'],
   ['bronze', 'Rovigo', 'Rovigo', 'Italy', '2026-10-07', '2026-10-11', 'https://www.padelfip.com/events/fip-bronze-rovigo-2026/'],
