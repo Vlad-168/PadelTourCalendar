@@ -235,7 +235,7 @@ const ROWS: Row[] = [
   ['p2', 'Germany', 'Dusseldorf', 'Germany', '2026-10-04', '2026-10-11', 'https://www.padelfip.com/events/germany-p2-2026/'],
   ['gold', 'Ciudad De Sevilla', 'Sevilla', 'Spain', '2026-10-12', '2026-10-18', 'https://www.padelfip.com/events/fip-gold-ciudad-de-sevilla-2026/'],
   ['bronze', 'High Velocity Cebu', 'Cebu City', 'Philippines', '2026-10-12', '2026-10-18', 'https://www.padelfip.com/events/fip-bronze-high-velocity-cebu/'],
-  ['bronze', 'Oslo', 'Oslo', 'Norway', '2026-10-12', '2026-10-18', 'https://www.padelfip.com/events/fip-bronze-oslo-2026/'],
+  ['bronze', 'Interpadel Open Oslo', 'Oslo', 'Norway', '2026-10-14', '2026-10-18', 'https://www.padelfip.com/events/fip-bronze-interpadel-open-oslo-2026/'],
   ['bronze', 'Cotonú', 'Cotonú', 'Benin', '2026-10-12', '2026-10-18', 'https://www.padelfip.com/events/fip-bronze-contonou-2026/'],
   ['bronze', 'Oeiras', 'Oeiras', 'Portugal', '2026-10-12', '2026-10-18', 'https://www.padelfip.com/events/fip-bronze-oeiras-2026/'],
   ['bronze', 'Racourt', 'Alkmaar', 'Netherlands', '2026-10-12', '2026-10-18', 'https://www.padelfip.com/events/fip-bronze-racourt-2026/'],
@@ -256,7 +256,7 @@ const ROWS: Row[] = [
   // November 2026
   ['silver', 'Women\'s Padel Crossroads Maldives', 'Malé', 'Maldives', '2026-11-02', '2026-11-08', 'https://www.padelfip.com/events/fip-silver-womens-padel-crossroads-maldives-2026/'],
   ['bronze', 'Cyprus IV', 'Ayia Napa', 'Cyprus', '2026-11-02', '2026-11-08', 'https://www.padelfip.com/events/fip-bronze-cyprus-iv-2026/'],
-  ['bronze', 'Finland II', 'Espoo', 'Finland', '2026-11-02', '2026-11-08', 'https://www.padelfip.com/events/fip-bronze-finland-2026/'],
+  ['bronze', 'Esc Padel', 'Espoo', 'Finland', '2026-11-02', '2026-11-08', 'https://www.padelfip.com/events/fip-bronze-esc-padel-2026/'],
   ['p1', 'Emaar Dubai Premier Padel', 'Dubai', 'United Arab Emirates', '2026-11-08', '2026-11-15', 'https://www.padelfip.com/events/emaar-dubai-premier-padel-p1-2026/'],
   ['bronze', 'Pala Padel Nola', 'Nola', 'Italy', '2026-11-09', '2026-11-15', 'https://www.padelfip.com/events/fip-bronze-pala-padel-nola-2026/'],
   ['bronze', 'Doha II', 'Doha', 'Qatar', '2026-11-09', '2026-11-15', 'https://www.padelfip.com/events/fip-bronze-doha-2026-2/'],
