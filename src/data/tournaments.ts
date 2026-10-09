@@ -238,7 +238,7 @@ const ROWS: Row[] = [
   ['bronze', 'Interpadel Open Oslo', 'Oslo', 'Norway', '2026-10-14', '2026-10-18', 'https://www.padelfip.com/events/fip-bronze-interpadel-open-oslo-2026/'],
   ['bronze', 'Cotonú', 'Cotonú', 'Benin', '2026-10-12', '2026-10-18', 'https://www.padelfip.com/events/fip-bronze-contonou-2026/'],
   ['bronze', 'Oeiras', 'Oeiras', 'Portugal', '2026-10-12', '2026-10-18', 'https://www.padelfip.com/events/fip-bronze-oeiras-2026/'],
-  ['bronze', 'Racourt', 'Alkmaar', 'Netherlands', '2026-10-12', '2026-10-18', 'https://www.padelfip.com/events/fip-bronze-racourt-2026/'],
+  ['bronze', 'Racourt', 'Alkmaar', 'Netherlands', '2026-10-15', '2026-10-18', 'https://www.padelfip.com/events/fip-bronze-racourt-2026/'],
   ['p1', 'Milano', 'Milano', 'Italy', '2026-10-10', '2026-10-18', 'https://www.padelfip.com/events/milano-p1-2026/'],
   ['bronze', 'EWH City Pádel Taunton', 'Taunton', 'Great Britain', '2026-10-19', '2026-10-25', 'https://www.padelfip.com/events/fip-bronze-ewh-city-padel-taunton/'],
   ['bronze', 'Antalya', 'Antalya', 'Turkey', '2026-10-19', '2026-10-25', 'https://www.padelfip.com/events/fip-bronze-antalya-2026/'],
