@@ -235,7 +235,7 @@ const ROWS: Row[] = [
   ['p2', 'Germany', 'Dusseldorf', 'Germany', '2026-10-04', '2026-10-11', 'https://www.padelfip.com/events/germany-p2-2026/'],
   ['gold', 'Ciudad De Sevilla', 'Sevilla', 'Spain', '2026-10-12', '2026-10-18', 'https://www.padelfip.com/events/fip-gold-ciudad-de-sevilla-2026/'],
   ['bronze', 'High Velocity Cebu', 'Cebu City', 'Philippines', '2026-10-14', '2026-10-18', 'https://www.padelfip.com/events/fip-bronze-high-velocity-cebu/'],
-  ['bronze', 'Interpadel Open Oslo', 'Oslo', 'Norway', '2026-10-14', '2026-10-18', 'https://www.padelfip.com/events/fip-bronze-interpadel-open-oslo-2026/'],
+  ['bronze', 'Interpadel Open Oslo', 'Oslo', 'Norway', '2026-10-15', '2026-10-18', 'https://www.padelfip.com/events/fip-bronze-interpadel-open-oslo-2026/'],
   ['bronze', 'Cotonú', 'Cotonú', 'Benin', '2026-10-15', '2026-10-18', 'https://www.padelfip.com/events/fip-bronze-contonou-2026/'],
   ['bronze', 'Oeiras', 'Oeiras', 'Portugal', '2026-10-12', '2026-10-18', 'https://www.padelfip.com/events/fip-bronze-oeiras-2026/'],
   ['bronze', 'Racourt', 'Alkmaar', 'Netherlands', '2026-10-15', '2026-10-18', 'https://www.padelfip.com/events/fip-bronze-racourt-2026/'],
