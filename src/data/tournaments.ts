@@ -265,7 +265,7 @@ const ROWS: Row[] = [
   ['bronze', 'Rochefort', 'Rochefort', 'Belgium', '2026-11-16', '2026-11-22', 'https://www.padelfip.com/events/fip-bronze-rochefort-2026/'],
   ['bronze', 'Accra', 'Accra', 'Ghana', '2026-11-16', '2026-11-22', 'https://www.padelfip.com/events/fip-bronze-accra-ghana-2026/'],
   ['silver', 'Go Park Hong Kong', 'Hong Kong', 'Hong Kong', '2026-11-16', '2026-11-22', 'https://www.padelfip.com/events/fip-silver-hong-kong-2026/'],
-  ['silver', 'Napoli', 'Napoli', 'Italy', '2026-11-16', '2026-11-22', 'https://www.padelfip.com/events/fip-silver-napoli-2026/'],
+  ['silver', 'MCV Padelness', 'Napoli', 'Italy', '2026-11-16', '2026-11-22', 'https://www.padelfip.com/events/fip-silver-mcv-padelness-2026/'],
   ['platinum', 'Aguascalientes', 'Aguascalientes', 'Mexico', '2026-11-15', '2026-11-21', 'https://www.padelfip.com/events/fip-platinum-aguascalientes-2026/'],
   ['bronze', 'Sweden II', 'Skurup', 'Sweden', '2026-11-16', '2026-11-21', 'https://www.padelfip.com/events/fip-bronze-sweden-ii-2026/'],
   ['bronze', 'Karachi II', 'Karachi', 'Pakistan', '2026-11-16', '2026-11-22', 'https://www.padelfip.com/events/fip-bronze-karachi-ii-2026/'],
