@@ -242,7 +242,7 @@ const ROWS: Row[] = [
   ['p1', 'Milano', 'Milano', 'Italy', '2026-10-10', '2026-10-18', 'https://www.padelfip.com/events/milano-p1-2026/'],
   ['bronze', 'EWH City Pádel Taunton', 'Taunton', 'Great Britain', '2026-10-21', '2026-10-25', 'https://www.padelfip.com/events/fip-bronze-ewh-city-padel-taunton/'],
   ['bronze', 'QNB Cup Antalya', 'Antalya', 'Turkey', '2026-10-21', '2026-10-25', 'https://www.padelfip.com/events/fip-bronze-qnb-cup-antalya-2026/'],
-  ['gold', 'Melilla Ciudad Del Deporte', 'Melilla', 'Spain', '2026-10-19', '2026-10-24', 'https://www.padelfip.com/events/fip-gold-melilla-ciudad-del-deporte-2026/'],
+  ['gold', 'Melilla Ciudad Del Deporte', 'Melilla', 'Spain', '2026-10-20', '2026-10-24', 'https://www.padelfip.com/events/fip-gold-melilla-ciudad-del-deporte-2026/'],
   ['bronze', 'High Velocity Samui', 'Samui', 'Thailand', '2026-10-22', '2026-10-25', 'https://www.padelfip.com/events/fip-bronze-high-velocity-samui-2026/'],
   ['bronze', 'Europabeat Santiago', 'Santiago de Chile', 'Chile', '2026-10-22', '2026-10-25', 'https://www.padelfip.com/events/fip-bronze-europabeat-santiago-2026/'],
   ['major', 'Kuwait Major', 'Kuwait', 'Kuwait', '2026-10-26', '2026-10-31', 'https://www.padelfip.com/events/kuwait-major-2026/'],
