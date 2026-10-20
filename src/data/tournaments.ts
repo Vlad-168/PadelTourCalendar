@@ -258,7 +258,7 @@ const ROWS: Row[] = [
   ['bronze', 'Cyprus IV', 'Ayia Napa', 'Cyprus', '2026-11-02', '2026-11-08', 'https://www.padelfip.com/events/fip-bronze-cyprus-iv-2026/'],
   ['bronze', 'Esc Padel', 'Espoo', 'Finland', '2026-11-02', '2026-11-08', 'https://www.padelfip.com/events/fip-bronze-esc-padel-2026/'],
   ['p1', 'Emaar Dubai Premier Padel', 'Dubai', 'United Arab Emirates', '2026-11-08', '2026-11-15', 'https://www.padelfip.com/events/emaar-dubai-premier-padel-p1-2026/'],
-  ['bronze', 'Pala Padel Nola', 'Nola', 'Italy', '2026-11-09', '2026-11-15', 'https://www.padelfip.com/events/fip-bronze-pala-padel-nola-2026/'],
+  ['bronze', 'Levante', 'Nola', 'Italy', '2026-11-09', '2026-11-15', 'https://www.padelfip.com/events/fip-bronze-levante-2026/'],
   ['bronze', 'Doha II', 'Doha', 'Qatar', '2026-11-09', '2026-11-15', 'https://www.padelfip.com/events/fip-bronze-doha-2026-2/'],
   ['silver', 'Mediolanum Como', 'Como', 'Italy', '2026-11-09', '2026-11-15', 'https://www.padelfip.com/events/fip-silver-mediolanum-como-2026/'],
   ['bronze', 'High Velocity Kochi', 'Kochi', 'India', '2026-11-09', '2026-11-15', 'https://www.padelfip.com/events/fip-bronze-high-velocity-kochi-2026/'],
