@@ -246,12 +246,12 @@ const ROWS: Row[] = [
   ['bronze', 'High Velocity Samui', 'Samui', 'Thailand', '2026-10-22', '2026-10-25', 'https://www.padelfip.com/events/fip-bronze-high-velocity-samui-2026/'],
   ['bronze', 'Viña Del Mar', 'Viña del Mar', 'Chile', '2026-10-22', '2026-10-25', 'https://www.padelfip.com/events/fip-bronze-vina-del-mar-2026/'],
   ['major', 'Kuwait Major', 'Kuwait', 'Kuwait', '2026-10-23', '2026-10-31', 'https://www.padelfip.com/events/kuwait-major-2026/'],
-  ['bronze', 'Jc Ferrero Academy', 'Villena', 'Spain', '2026-10-26', '2026-11-01', 'https://www.padelfip.com/events/fip-bronze-jc-ferrero-academy-2026/'],
+  ['bronze', 'Jc Ferrero Academy', 'Villena', 'Spain', '2026-10-28', '2026-11-01', 'https://www.padelfip.com/events/fip-bronze-jc-ferrero-academy-2026/'],
   ['bronze', 'Cyprus III', 'Ayia Napa', 'Cyprus', '2026-10-26', '2026-11-01', 'https://www.padelfip.com/events/fip-bronze-cyprus-iii-2026/'],
   ['gold', 'Mediolanum Torino', 'Torino', 'Italy', '2026-10-27', '2026-11-01', 'https://www.padelfip.com/events/fip-gold-mediolanum-torino-2026/'],
   ['silver', 'Damac Dubai II', 'Dubai', 'United Arab Emirates', '2026-10-26', '2026-11-01', 'https://www.padelfip.com/events/fip-silver-damac-dubai-ii-2026/'],
-  ['bronze', 'Ko Panghan', 'Panghan', 'Thailand', '2026-10-26', '2026-11-01', 'https://www.padelfip.com/events/fip-bronze-ko-panghan/'],
-  ['bronze', 'Tashkent', 'Tashkent', 'Uzbekistan', '2026-10-26', '2026-11-01', 'https://www.padelfip.com/events/fip-bronze-tashkent-2026/'],
+  ['bronze', 'High Velocity Phangan', 'Phangan', 'Thailand', '2026-10-30', '2026-11-01', 'https://www.padelfip.com/events/fip-bronze-ko-panghan/'],
+  ['bronze', 'Tashkent', 'Tashkent', 'Uzbekistan', '2026-10-29', '2026-11-01', 'https://www.padelfip.com/events/fip-bronze-tashkent-2026/'],
 
   // November 2026
   ['silver', 'Women\'s Padel Crossroads Maldives', 'Malé', 'Maldives', '2026-11-02', '2026-11-08', 'https://www.padelfip.com/events/fip-silver-womens-padel-crossroads-maldives-2026/'],
