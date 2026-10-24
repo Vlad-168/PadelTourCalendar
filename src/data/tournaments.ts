@@ -269,11 +269,10 @@ const ROWS: Row[] = [
   ['platinum', 'Aguascalientes', 'Aguascalientes', 'Mexico', '2026-11-15', '2026-11-21', 'https://www.padelfip.com/events/fip-platinum-aguascalientes-2026/'],
   ['bronze', 'Sweden II', 'Skurup', 'Sweden', '2026-11-16', '2026-11-21', 'https://www.padelfip.com/events/fip-bronze-sweden-ii-2026/'],
   ['bronze', 'Karachi II', 'Karachi', 'Pakistan', '2026-11-16', '2026-11-22', 'https://www.padelfip.com/events/fip-bronze-karachi-ii-2026/'],
-  ['bronze', 'Iurreta Padelko', 'Iurreta', 'Spain', '2026-11-16', '2026-11-22', 'https://www.padelfip.com/events/fip-bronze-vizcaya-2026/'],
+  ['bronze', 'Padelko', 'Iurreta', 'Spain', '2026-11-16', '2026-11-22', 'https://www.padelfip.com/events/fip-bronze-padelko-2026/'],
   ['silver', 'Dovy Padel Open', 'Roeselare', 'Belgium', '2026-11-23', '2026-11-29', 'https://www.padelfip.com/events/fip-silver-dovy-padel-open-2026/'],
   ['bronze', 'Dovy Padel Open', 'Roeselare', 'Belgium', '2026-11-23', '2026-11-29', 'https://www.padelfip.com/events/fip-bronze-dovy-padel-open-2026/'],
   ['bronze', 'Chile IX', 'San Antonio', 'Chile', '2026-11-16', '2026-11-22', 'https://www.padelfip.com/events/fip-bronze-chile-ix-2026-2/'],
-  ['bronze', 'Denia', 'Denia', 'Spain', '2026-11-23', '2026-11-29', 'https://www.padelfip.com/events/fip-bronze-denia-2026/'],
   ['bronze', 'High Velocity Phuket', 'Phuket', 'Thailand', '2026-11-23', '2026-11-29', 'https://www.padelfip.com/events/fip-bronze-high-velocity-phuket-2026-2/'],
   ['major', 'Mexico Major', 'Acapulco', 'Mexico', '2026-11-23', '2026-11-29', 'https://www.padelfip.com/events/mexico-major-2026/'],
 
