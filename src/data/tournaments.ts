@@ -249,7 +249,7 @@ const ROWS: Row[] = [
   ['bronze', 'Jc Ferrero Academy', 'Villena', 'Spain', '2026-10-28', '2026-11-01', 'https://www.padelfip.com/events/fip-bronze-jc-ferrero-academy-2026/'],
   ['bronze', 'Cyprus III', 'Ayia Napa', 'Cyprus', '2026-10-26', '2026-11-01', 'https://www.padelfip.com/events/fip-bronze-cyprus-iii-2026/'],
   ['gold', 'Mediolanum Torino', 'Torino', 'Italy', '2026-10-27', '2026-11-01', 'https://www.padelfip.com/events/fip-gold-mediolanum-torino-2026/'],
-  ['silver', 'Damac Dubai II', 'Dubai', 'United Arab Emirates', '2026-10-26', '2026-11-01', 'https://www.padelfip.com/events/fip-silver-damac-dubai-ii-2026/'],
+  ['silver', 'Damac Dubai II', 'Dubai', 'United Arab Emirates', '2026-10-27', '2026-11-01', 'https://www.padelfip.com/events/fip-silver-damac-dubai-ii-2026/'],
   ['bronze', 'High Velocity Phangan', 'Phangan', 'Thailand', '2026-10-30', '2026-11-01', 'https://www.padelfip.com/events/fip-bronze-ko-panghan/'],
   ['bronze', 'Tashkent', 'Tashkent', 'Uzbekistan', '2026-10-29', '2026-11-01', 'https://www.padelfip.com/events/fip-bronze-tashkent-2026/'],
 
